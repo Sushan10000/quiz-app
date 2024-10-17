@@ -2,6 +2,8 @@ import { createRouter, createWebHistory } from "vue-router";
 import QuizesView from "@/veiws/QuizesView.vue";
 import QuizView from "@/veiws/QuizView.vue";
 import NotFoundView from "@/veiws/NotFoundView.vue";
+import LoginView from "@/veiws/LoginView.vue";
+import RegisterView from "@/veiws/RegisterView.vue";
 
 
 const router = createRouter({
@@ -22,12 +24,19 @@ const router = createRouter({
             component: QuizView
         },
         {
+            path: '/login',
+            name: 'login',
+            component: LoginView
+        },
+        {
+            path: '/register',
+            name: 'register',
+            component: RegisterView
+        },
+        {
             path: '/:pathMatch(.*)*',
             name: 'NotFound', 
             component: NotFoundView
-        },
-        {
-            path: '/login'
         }
     ]
 })

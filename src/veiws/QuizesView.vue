@@ -20,7 +20,12 @@ watch(search, (newValue) => {
         <h1>Quizes</h1>
         <input v-model.trim="search" type="text" placeholder="Search">
         <div class="login-cont">
-          <button class="login-button">Login</button>
+          <RouterLink to="/login">
+            <button class="login-button">Login</button>
+          </RouterLink>
+          <RouterLink to="/register">
+            <button class="login-button">Register</button>
+          </RouterLink>
         </div>
     </header>
     <div class="options-container">

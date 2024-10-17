@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin",
+      "email": "admin@gmail.com",
+      "password": "12345678",
+      "isAdmin": true
+    },
+    {
+      "id": "cf83",
+      "name": "subham bhandari",
+      "email": "bhandari@gmail.com",
+      "password": "1234567845",
+      "isAdmin": false
+    },
+    {
+      "id": "19fe",
+      "name": "nuw user",
+      "email": "new@gmail.com",
+      "password": "12345678",
+      "isAdmin": false
+    }
+  ]
+}
