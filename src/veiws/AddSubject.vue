@@ -1,3 +1,3 @@
 <template>
-    login functionaluity 
+    login  
 </template>

@@ -14,7 +14,6 @@ const logout = () => {
     quizStore.setAdminStatus(false);
     router.push('/');
 };
-haha
 </script>
 
 <template>
