@@ -20,6 +20,13 @@
       "email": "new@gmail.com",
       "password": "12345678",
       "isAdmin": false
+    },
+    {
+      "id": "92e7",
+      "name": "JOJO",
+      "email": "jojo@gmail.com",
+      "password": "jojo",
+      "isAdmin": false
     }
   ]
 }

@@ -59,13 +59,22 @@ watch(search, (newValue) => {
     margin-top: 40px;
   }
 
-  .login-button{
-    justify-items: end;
+  .login-button {
+    padding: 10px 15px;
+    margin-left: 10px; 
+    background-color: lightskyblue; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
   }
 
-  .login-cont{
+  .login-button:hover {
+    background-color: #0056b3; 
+  }
+
+  .login-cont {
     display: flex;
     flex: 1;
-    
   }
 </style>
